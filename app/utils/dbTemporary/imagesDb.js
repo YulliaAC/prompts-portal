@@ -101,4 +101,34 @@ export const images = [
     src: "https://cdn.discordapp.com/attachments/984632424610824222/1100024391359799456/beam_Back_view_realistic_proportions_full-body_portrait_of_a_go_bd6248b8-96b4-497b-b23f-4fe0bcc79202.png",
     alt: "Back view, realistic proportions full-body portrait of a gorgeous black cloud goddess, white cloud hair, nephele nymph, Air elemental, floating in the air, wearing thin glowy and flowy gown and opulent magnificent white cape, lots of shiny silver jewelry and gems, sky background, dramatic cinematographic lighting, white and rainbow-like colors",
   },
+  {
+    id: nanoid(),
+    src: "https://cdn.discordapp.com/attachments/984632520471633920/1100101586052714657/Juan_Almendro_Classic_photography_studio_for_a_clasic_psychedel_ca65b7a5-ff3a-48c0-85b8-0cbde4e5e003.png",
+    alt: "Classic photography studio for a clasic psychedelic rock band"
+  },
+  {
+    id: nanoid(),
+    src: "https://cdn.discordapp.com/attachments/984632520471633920/1100100494204088371/LunAndy_a_white_cat_walks_on_water_in_the_middle_of_a_lake_that_c2cc2b47-78df-4784-ae9b-3683f345c503.png",
+    alt: "a white cat walks on water in the middle of a lake that is surrounded by pink cherry blossoms, there are cherry blossom leaves floating everywhere, the sky is beautiful and blue, oil painting art style"
+  },
+  {
+    id: nanoid(),
+    src: "https://cdn.discordapp.com/attachments/989274728155992124/1100107048483557417/tutuka_cocktail_1_12_ounces_vodka_34_ounce_fresh_lemon_juice_34_6380ac3e-514e-4eb0-ba24-b974c1cb10d6.png",
+    alt: "cocktail, 1 1/2 ounces vodka 3/4 ounce fresh lemon juice 3/4 ounce honey syrup (equal parts honey and water) 1/2 ounce raspberry liqueur Ice Lemon twist for garnish, for breakup, healing, volumetric lightening, bioluminescence, mystic, 3d, super detail, product photography, octane render, unreal engine "
+  },
+  {
+    id: nanoid(),
+    src: "https://cdn.discordapp.com/attachments/933565701162168371/1100108353922936943/49439512_muliple_peony_flowers_in_shape_of_heart_realistic_phot_0801636a-1c3c-4358-a893-9da458431679.png",
+    alt: "muliple peony flowers in shape of heart, realistic photo, pink, blue, Jan Davidsz, butterfly, eucalyptus"
+  },
+  {
+    id: nanoid(),
+    src: "https://cdn.discordapp.com/attachments/941971306004504638/1100108338152341614/sebdunedin_Portrait_of_a_young_joyeful_african_Woman_by_Hein_Go_27b32796-94fb-45b1-970f-f59cff9ce9e4.png",
+    alt: "Portrait of a young joyeful african Woman, by Hein Gorny & Ogawa Kazumasa & Viviane Sassen, Pointillism, cubism & Geometric Patterns, feathers, snake scales, honeycomb. Caustic Lighting, Mushroomcore, Optical Illusions, Detailed Character Illustrations, pattern-based painting, depictions of urban life, richly detailed genre paintings, hasselblad large format film" 
+  },
+  {
+    id: nanoid(),
+    src: "https://cdn.discordapp.com/attachments/981832774157762570/1100106763140878396/Maria_Claudia_doctores_usando_inteligencia_artificial_en_sus_pa_a4524b4f-630d-48ae-a61d-fb4cebb0216c.png",
+    alt: "doctores usando inteligencia artificial en sus pacientes" 
+  },
 ];

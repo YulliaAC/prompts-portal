@@ -3727,11 +3727,11 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/layout": [
-      "static/css/app/layout.css"
-    ],
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/page": [
       "static/css/app/page.css"
+    ],
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/layout": [
+      "static/css/app/layout.css"
     ]
   },
   "clientModules": {
@@ -11175,20 +11175,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Authbar/Authbar.module.css#": {
       "id": "null",
       "name": "default",
@@ -11197,6 +11183,13 @@ self.__RSC_MANIFEST={
       ]
     },
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Header/Header.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/ImageList/ImageList.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
@@ -13056,6 +13049,20 @@ self.__RSC_MANIFEST={
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     }
   }
 }

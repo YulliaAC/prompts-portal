@@ -28,10 +28,10 @@
 .hero_container{
     /* min-height: calc(80vh); */
     padding-top: 244px;
-    padding-bottom: 295px;
+    padding-bottom: 259px;
     background-image: url(./utils/background/hero.png);
     background-repeat: no-repeat;
-    background-position: contain;
+    background-position: cover;
     background-size: 1450px 744px;
     text-align: center;
 }
