@@ -1,3 +1,132 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/components/Authbar/Authbar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Authbar_auth_container__OeK_x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Authbar_login_btn__2fQkI {
+  margin-right: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.14px;
+  color: #656f79;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  background-color: transparent;
+}
+
+.Authbar_signup_btn__TZlVh {
+  padding: 9px 24px 9px 25px;
+  background: #f2f3f5;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.14px;
+
+  color: #656f79;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/components/Header/Header.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header_container__xB7mm {
+  position: relative;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 12px;
+}
+
+.Header_logo_auth_container__QXDZh {
+  display: flex;
+  align-items: center;
+}
+
+.Header_burger_btn__BClpU {
+  margin-right: 13px;
+  border: none;
+  background-color: transparent;
+}
+
+.Header_logo_text__8vzjg {
+  margin-right: 47px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #04111d;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Header_search_btn__NpPTe {
+  width: 156px;
+  height: 46px;
+  margin-right: 25px;
+  padding: 12px 27px 15px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 2px 5px 1px rgba(64, 60, 67, 0.16);
+  border-radius: 24px;
+  border: none;
+}
+
+.Header_search_btn_text__m2G2I {
+  margin-right: 6px;
+  margin-left: 6px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #656f79;
+}
+
+.Header_search_input__18lFA {
+    margin-right: 37px;
+  padding: 20px;
+  width: 676px;
+  height: 46px;
+  background: #ffffff;
+  box-shadow: 0px 2px 5px 1px rgba(64, 60, 67, 0.16);
+  border-radius: 24px;
+  border: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #656f79;
+}
+
+.Header_search_icon__XT7FM {
+  position: absolute;
+  top: 24px;
+  right: 350px;
+  z-index: 2;
+}
+
 /*!*************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/page.module.css ***!
   \*************************************************************************************************************************************************************************************************************************************************************/
