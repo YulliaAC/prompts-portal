@@ -19,14 +19,14 @@ export default function Home() {
       <div className={styles.hero_container}>
         <h1 className={styles.title}>Unleashing the Power of AI Prompts</h1>
         <p className={styles.text}>The Incredible Journey of Text Prompts into AI-Generated Visual Masterpieces</p>
-        <div>
-        <button>
+        <div className={styles.input_container}>
+        <button className={styles.search_btn}>
             <PhotoIcon/>
-           <span>Images</span>
-           <ArrowIcon/>
+           <span className={styles.search_btn_text}>Images</span>
+           <ArrowIcon viewport='20 16'/>
         </button>
-          <input/>
-          <SearchIcon/>
+          <input className={styles.search_input}/>
+          <span className={styles.search_icon}><SearchIcon/></span>
         </div>
       </div>
       </section>
