@@ -34,14 +34,53 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.14px;
-
   color: #656f79;
 }
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/components/Navbar/Navbar.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_navbar_container__8OiKa{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.Navbar_nav_list__fSdZK{
+    display: flex;
+    align-items: center;
+}
+
+.Navbar_nav_item__S3lly{
+    margin-right: 8px;
+    padding: 9px 25px 9px 25px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 24px;
+    box-shadow: 0px 2px 5px 1px rgba(64, 60, 67, 0.16);
+}
+
+.Navbar_nav_item__S3lly:last-of-type{
+    margin-right: 0;
+}
+
+.Navbar_nav_link__HHVzX{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    letter-spacing: 0.14px;
+    color: #656F79;
+    text-decoration: none;
+}
+
 
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/components/Header/Header.module.css ***!
@@ -49,7 +88,7 @@
 .Header_header_container__xB7mm {
   position: relative;
   padding-top: 13px;
-  padding-bottom: 13px;
+  /* padding-bottom: 13px; */
   padding-left: 12px;
 }
 
@@ -104,7 +143,7 @@
 }
 
 .Header_search_input__18lFA {
-    margin-right: 37px;
+margin-right: 37px;
   padding: 20px;
   width: 676px;
   height: 46px;
