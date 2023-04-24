@@ -10,6 +10,7 @@
   },
   "cssModules": {
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/page": [
+      "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/page.module.css",
       "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/globals.css",
       "/Users/uliasemenuk/projects/AppClicks/prompts-portal/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ]
