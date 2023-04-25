@@ -7,7 +7,7 @@ return(
 <path d="M21.8 25H23.4C25.1673 25 26.6 23.8076 26.6 22.3348C26.6 20.2668 26.6 17.4591 26.6 15.6667C26.6 14.3333 29 13 29 13C29 13 26.6 11.6667 26.6 10.3333C26.6 8.76933 26.6 5.82943 26.6 3.66552C26.6 2.19276 25.1673 1 23.4 1H21.8" stroke="#656F79" strokeLinecap="round" strokeLinejoin="round"/>
 <defs>
 <filter id="filter0_d_1_623" x="0.5" y="0.5" width="16.2" height="33" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>

@@ -21,7 +21,7 @@ return(
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_606" result="shape"/>
 </filter>
 <filter id="filter1_d_1_606" x="8.68164" y="13.7" width="16.6364" height="19.8" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>

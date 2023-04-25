@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Header from './components/Header/Header';
+import Menu from './components/Menu/Menu';
 import { SearchIcon } from './utils/svg/SearchIcon';
 import { PhotoIcon } from './utils/svg/PhotoIcon';
 import { ArrowIcon } from './utils/svg/ArrowDown';
@@ -14,6 +15,8 @@ export default function Home() {
     <Header/>
     <main>
       <section>
+      <div className={styles.menu_hero_container}>
+        <Menu/>
       <div className={styles.hero_container}>
         <h1 className={styles.title}>Unleashing the Power of AI Prompts</h1>
         <p className={styles.text}>The Incredible Journey of Text Prompts into AI-Generated Visual Masterpieces</p>
@@ -26,6 +29,7 @@ export default function Home() {
           <input className={styles.search_input}/>
           <span className={styles.search_icon}><SearchIcon/></span>
         </div>
+      </div>
       </div>
       </section>
       <section>

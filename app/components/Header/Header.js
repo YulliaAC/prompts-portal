@@ -13,7 +13,7 @@ export default function Header() {
   return (
        <div className={styles.header_container}>
         <div className={styles.logo_auth_container}>
-           <button className={styles.burger_btn}><BurgerIcon/></button>
+           {/* <button className={styles.burger_btn}><BurgerIcon/></button> */}
            <Link href='/'><span><img src='../../../public/logo.png' alt='logo' width='45' height='45'/></span></Link>
            {/* <LogoIcon></LogoIcon> */}
            <span className={styles.logo_text}>PromptsPortal</span>

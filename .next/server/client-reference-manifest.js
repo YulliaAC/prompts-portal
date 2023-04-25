@@ -3500,32 +3500,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/has-base-path.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -11256,6 +11230,13 @@ self.__RSC_MANIFEST={
       ]
     },
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/ImageList/ImageList.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Menu/Menu.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [

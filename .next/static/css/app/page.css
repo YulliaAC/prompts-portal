@@ -24,6 +24,9 @@
 }
 
 .Authbar_signup_btn__TZlVh {
+    max-height: 40px;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
   padding: 9px 24px 9px 25px;
   background: #f2f3f5;
   border: 1px solid #e3e3e3;
@@ -45,8 +48,8 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/components/Navbar/Navbar.module.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************/
 .Navbar_navbar_container__8OiKa{
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 15px;
+    /* padding-bottom: 14px; */
 }
 
 .Navbar_nav_list__fSdZK{
@@ -87,9 +90,11 @@
   \*********************************************************************************************************************************************************************************************************************************************************************************/
 .Header_header_container__xB7mm {
   position: relative;
-  padding-top: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   /* padding-bottom: 13px; */
-  padding-left: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .Header_logo_auth_container__QXDZh {
@@ -162,8 +167,27 @@ margin-right: 37px;
 .Header_search_icon__XT7FM {
   position: absolute;
   top: 24px;
-  right: 350px;
+  right: 400px;
   z-index: 2;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/components/Menu/Menu.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.Menu_menu_list__5x_SU{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.Menu_menu_item__IQfSL{
+    padding: 20px 15px 20px 15px;
+}
+
+.Menu_menu_item__IQfSL:first-of-type{
+    padding-top: 0px;
 }
 
 /*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -262,14 +286,21 @@ margin-right: 37px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.page_menu_hero_container__uIlre{
+    /* width: 100%; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+
 .page_hero_container__3P5ix{
     /* min-height: calc(80vh); */
+    width: 100%;
     padding-top: 244px;
     padding-bottom: 259px;
     background-image: url(/_next/static/media/hero.23261699.png);
     background-repeat: no-repeat;
-    background-position: cover;
-    background-size: 1450px 744px;
+    background-position: top 0, left 0;
+    background-size: 1450px 774px;
     text-align: center;
 }
 

@@ -1,8 +1,10 @@
 .header_container {
   position: relative;
-  padding-top: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   /* padding-bottom: 13px; */
-  padding-left: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .logo_auth_container {
@@ -75,6 +77,6 @@ margin-right: 37px;
 .search_icon {
   position: absolute;
   top: 24px;
-  right: 350px;
+  right: 400px;
   z-index: 2;
 }
