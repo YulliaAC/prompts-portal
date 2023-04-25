@@ -1,0 +1,14 @@
+.profile_container{
+    padding-top: 40px;
+    padding-left: 50%;
+}
+
+.logout_btn{
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

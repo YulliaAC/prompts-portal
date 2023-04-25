@@ -1,0 +1,17 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./app/user/[userId]/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.page_profile_container__qlvts{
+    padding-top: 40px;
+    padding-left: 50%;
+}
+
+.page_logout_btn__56pq1{
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

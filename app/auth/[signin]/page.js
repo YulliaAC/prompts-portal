@@ -11,15 +11,13 @@ export default function SignIn() {
     const provider = new GoogleAuthProvider();
     const auth = getAuth();
     const [user, loading] = useAuthState(auth);
-    // const router = useRouter();
 
     if (loading) {
-      // redirect('/')
       return <div>Loading...</div>;
     }
 
     if (user) {
-      return <div>Hi {user.displayName}</div>;
+      redirect('/');
     }
     
     const signIn = async () => {
