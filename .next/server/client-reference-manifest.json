@@ -3749,6 +3749,66 @@
         ],
         "async": false
       }
+    },
+    "(app-client)/./app/auth/[signin]/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/auth/[signin]/page.js",
+        "name": "*",
+        "chunks": [
+          "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/auth/[signin]/page.js",
+        "name": "",
+        "chunks": [
+          "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/auth/[signin]/page.js",
+        "name": "default",
+        "chunks": [
+          "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/firebase/FirebaseApp.js": {
+      "*": {
+        "id": "(sc_client)/./app/firebase/FirebaseApp.js",
+        "name": "*",
+        "chunks": [
+          "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/firebase/FirebaseApp.js",
+        "name": "",
+        "chunks": [
+          "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+        ],
+        "async": false
+      },
+      "app": {
+        "id": "(sc_client)/./app/firebase/FirebaseApp.js",
+        "name": "app",
+        "chunks": [
+          "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+        ],
+        "async": false
+      },
+      "initFirebase": {
+        "id": "(sc_client)/./app/firebase/FirebaseApp.js",
+        "name": "initFirebase",
+        "chunks": [
+          "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -3758,6 +3818,9 @@
     ],
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/page": [
       "static/css/app/page.css"
+    ],
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/auth/[signin]/page": [
+      "static/css/app/auth/[signin]/page.css"
     ]
   },
   "clientModules": {
@@ -13125,6 +13188,69 @@
       "name": "warnOnce",
       "chunks": [
         "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/auth/[signin]/page.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/auth/[signin]/page.css"
+      ]
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/auth/[signin]/page.js": {
+      "id": "(app-client)/./app/auth/[signin]/page.js",
+      "name": "*",
+      "chunks": [
+        "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/auth/[signin]/page.js#": {
+      "id": "(app-client)/./app/auth/[signin]/page.js",
+      "name": "",
+      "chunks": [
+        "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/auth/[signin]/page.js#default": {
+      "id": "(app-client)/./app/auth/[signin]/page.js",
+      "name": "default",
+      "chunks": [
+        "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/firebase/FirebaseApp.js": {
+      "id": "(app-client)/./app/firebase/FirebaseApp.js",
+      "name": "*",
+      "chunks": [
+        "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/firebase/FirebaseApp.js#": {
+      "id": "(app-client)/./app/firebase/FirebaseApp.js",
+      "name": "",
+      "chunks": [
+        "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/firebase/FirebaseApp.js#app": {
+      "id": "(app-client)/./app/firebase/FirebaseApp.js",
+      "name": "app",
+      "chunks": [
+        "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/firebase/FirebaseApp.js#initFirebase": {
+      "id": "(app-client)/./app/firebase/FirebaseApp.js",
+      "name": "initFirebase",
+      "chunks": [
+        "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
       ],
       "async": false
     }

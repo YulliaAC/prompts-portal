@@ -6,7 +6,7 @@ return(
 <path d="M16.9998 25V14.2M16.9998 14.2L20.818 18.4M16.9998 14.2L13.1816 18.4" stroke="#656F79" strokeLinecap="round" strokeLinejoin="round" shapeRendering="crispEdges"/>
 </g>
 <g filter="url(#filter2_d_1_606)">
-<path d="M25.7273 19.7288C27.3568 19.0265 29 17.4267 29 14.2C29 9.4 25.3637 8.2 23.5455 8.2C23.5455 5.8 23.5455 1 17 1C10.4545 1 10.4545 5.8 10.4545 8.2C8.63636 8.2 5 9.4 5 14.2C5 17.4267 6.64321 19.0265 8.27273 19.7288" stroke="#656F79" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"/>
+<path d="M25.7273 19.7288C27.3568 19.0265 29 17.4267 29 14.2C29 9.4 25.3637 8.2 23.5455 8.2C23.5455 5.8 23.5455 1 17 1C10.4545 1 10.4545 5.8 10.4545 8.2C8.63636 8.2 5 9.4 5 14.2C5 17.4267 6.64321 19.0265 8.27273 19.7288" stroke="#656F79" strokeLinecap="round" strokeLinejoin="round" shapeRendering="crispEdges"/>
 </g>
 </g>
 <defs>

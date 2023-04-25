@@ -7,7 +7,7 @@ export const MusicIcon = () => {
 <path d="M8 25.0002H9.5C11.1569 25.0002 12.5 23.8063 12.5 22.3335V18.3335H8C6.34314 18.3335 5 19.5274 5 21.0002V22.3335C5 23.8063 6.34314 25.0002 8 25.0002Z" stroke="#656F79" strokeLinecap="round" strokeLinejoin="round"/>
 </g>
 <defs>
-<filter id="filter0_d_1_626" x="0.5" y="0.5" width="33" height="33.0002" filterUnits="userSpaceOnUse" colorinterpolationFilters="sRGB">
+<filter id="filter0_d_1_626" x="0.5" y="0.5" width="33" height="33.0002" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
 <feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
