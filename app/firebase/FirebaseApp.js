@@ -7,19 +7,18 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBlD6jDQY0wDRzAxFgkDUaLc_yx_hbzBlw",
-  authDomain: "prompt-portal.firebaseapp.com",
-  projectId: "prompt-portal",
-  storageBucket: "prompt-portal.appspot.com",
-  messagingSenderId: "622546542474",
-  appId: "1:622546542474:web:5c3032fae89c150a067273",
-  measurementId: "G-LKLG0MG6XD"
+  apiKey: "AIzaSyCFT_kGpNdLSs_pCnPBFN-enEPfrgY2U38",
+  authDomain: "prompts-portal.firebaseapp.com",
+  projectId: "prompts-portal",
+  storageBucket: "prompts-portal.appspot.com",
+  messagingSenderId: "687424865620",
+  appId: "1:687424865620:web:d7bbc54befe77ab51ab4c1",
+  measurementId: "G-GZ4BTEXSG3"
 };
 
 // Initialize Firebase
-export const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
-
+const app = initializeApp(firebaseConfig);
 export const initFirebase = () => {
-    return app;
+  return app;
 }
+// const analytics = getAnalytics(app);

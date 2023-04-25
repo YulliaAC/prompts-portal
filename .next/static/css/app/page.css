@@ -6,6 +6,32 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.Authbar_profile_btn___NPID{
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    padding: 9px 10px;
+    /* width: 100px; */
+    height: 42px;
+    display: flex;
+    /* justify-content: bas; */
+    align-items: center;
+    border: 1px solid #E3E3E3;
+    border-radius: 12px;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #656F79;
+}
+
+.Authbar_profile_icon__QhXXZ{
+    margin-right: 8px;
+    display: flex;
+}
+
 .Authbar_login_btn__2fQkI {
   margin-right: 32px;
   font-family: "Poppins";

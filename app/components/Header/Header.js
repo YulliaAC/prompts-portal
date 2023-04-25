@@ -9,7 +9,7 @@ import Navbar from "../Navbar/Navbar";
 import styles from './Header.module.css';
 
 
-export default function Header() {
+export default function Header(isLoggenIn, user) {
   return (
        <div className={styles.header_container}>
         <div className={styles.logo_auth_container}>
@@ -24,7 +24,7 @@ export default function Header() {
            </button>
             <input className={styles.search_input}/>
             <span className={styles.search_icon}><SearchIcon/></span>
-            <Authbar/>
+            <Authbar isLoggenIn={isLoggenIn} user={user}/>
           </div>
             <Navbar/>
        </div>

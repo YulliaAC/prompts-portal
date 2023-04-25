@@ -3422,6 +3422,32 @@
         "async": false
       }
     },
+    "(app-client)/./app/components/Authbar/Authbar.js": {
+      "*": {
+        "id": "(sc_client)/./app/components/Authbar/Authbar.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Authbar/Authbar.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Authbar/Authbar.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/components/Modal/Modal.js": {
       "*": {
         "id": "(sc_client)/./app/components/Modal/Modal.js",
@@ -3442,6 +3468,32 @@
       "Modal": {
         "id": "(sc_client)/./app/components/Modal/Modal.js",
         "name": "Modal",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/utils/svg/ProfileIcon.js": {
+      "*": {
+        "id": "(sc_client)/./app/utils/svg/ProfileIcon.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/utils/svg/ProfileIcon.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "ProfileIcon": {
+        "id": "(sc_client)/./app/utils/svg/ProfileIcon.js",
+        "name": "ProfileIcon",
         "chunks": [
           "app/page:static/chunks/app/page.js"
         ],
@@ -3493,6 +3545,32 @@
       },
       "default": {
         "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/has-base-path.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -3793,14 +3871,6 @@
         ],
         "async": false
       },
-      "app": {
-        "id": "(sc_client)/./app/firebase/FirebaseApp.js",
-        "name": "app",
-        "chunks": [
-          "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
-        ],
-        "async": false
-      },
       "initFirebase": {
         "id": "(sc_client)/./app/firebase/FirebaseApp.js",
         "name": "initFirebase",
@@ -3813,11 +3883,11 @@
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/layout": [
-      "static/css/app/layout.css"
-    ],
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/page": [
       "static/css/app/page.css"
+    ],
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/layout": [
+      "static/css/app/layout.css"
     ],
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/auth/[signin]/page": [
       "static/css/app/auth/[signin]/page.css"
@@ -11264,20 +11334,6 @@
       ],
       "async": false
     },
-    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Authbar/Authbar.module.css#": {
       "id": "null",
       "name": "default",
@@ -11327,6 +11383,30 @@
         "static/css/app/page.css"
       ]
     },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Authbar/Authbar.js": {
+      "id": "(app-client)/./app/components/Authbar/Authbar.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Authbar/Authbar.js#": {
+      "id": "(app-client)/./app/components/Authbar/Authbar.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Authbar/Authbar.js#default": {
+      "id": "(app-client)/./app/components/Authbar/Authbar.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Modal/Modal.js": {
       "id": "(app-client)/./app/components/Modal/Modal.js",
       "name": "*",
@@ -11346,6 +11426,30 @@
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Modal/Modal.js#Modal": {
       "id": "(app-client)/./app/components/Modal/Modal.js",
       "name": "Modal",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/utils/svg/ProfileIcon.js": {
+      "id": "(app-client)/./app/utils/svg/ProfileIcon.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/utils/svg/ProfileIcon.js#": {
+      "id": "(app-client)/./app/utils/svg/ProfileIcon.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/utils/svg/ProfileIcon.js#ProfileIcon": {
+      "id": "(app-client)/./app/utils/svg/ProfileIcon.js",
+      "name": "ProfileIcon",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
@@ -13191,6 +13295,20 @@
       ],
       "async": false
     },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/auth/[signin]/page.module.css#": {
       "id": "null",
       "name": "default",
@@ -13233,14 +13351,6 @@
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/firebase/FirebaseApp.js#": {
       "id": "(app-client)/./app/firebase/FirebaseApp.js",
       "name": "",
-      "chunks": [
-        "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/firebase/FirebaseApp.js#app": {
-      "id": "(app-client)/./app/firebase/FirebaseApp.js",
-      "name": "app",
       "chunks": [
         "app/auth/[signin]/page:static/chunks/app/auth/[signin]/page.js"
       ],
