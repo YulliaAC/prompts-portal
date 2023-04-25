@@ -4,7 +4,6 @@ import Header from './components/Header/Header';
 import { SearchIcon } from './utils/svg/SearchIcon';
 import { PhotoIcon } from './utils/svg/PhotoIcon';
 import { ArrowIcon } from './utils/svg/ArrowDown';
-import Navbar from './components/Navbar/Navbar';
 import ImageList from './components/ImageList/ImageList';
 import styles from './page.module.css';
 

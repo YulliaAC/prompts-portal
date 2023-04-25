@@ -3422,6 +3422,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/components/Modal/Modal.js": {
+      "*": {
+        "id": "(sc_client)/./app/components/Modal/Modal.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Modal/Modal.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "Modal": {
+        "id": "(sc_client)/./app/components/Modal/Modal.js",
+        "name": "Modal",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/add-locale.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
@@ -3467,6 +3493,32 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/has-base-path.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/has-base-path.js",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -3727,11 +3779,11 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/page": [
-      "static/css/app/page.css"
-    ],
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -11175,6 +11227,20 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Authbar/Authbar.module.css#": {
       "id": "null",
       "name": "default",
@@ -11196,6 +11262,13 @@ self.__RSC_MANIFEST={
         "static/css/app/page.css"
       ]
     },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Modal/Modal.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Navbar/Navbar.module.css#": {
       "id": "null",
       "name": "default",
@@ -11209,6 +11282,30 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/page.css"
       ]
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Modal/Modal.js": {
+      "id": "(app-client)/./app/components/Modal/Modal.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Modal/Modal.js#": {
+      "id": "(app-client)/./app/components/Modal/Modal.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/components/Modal/Modal.js#Modal": {
+      "id": "(app-client)/./app/components/Modal/Modal.js",
+      "name": "Modal",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     },
     "/Users/uliasemenuk/projects/AppClicks/prompts-portal/node_modules/next/dist/client/add-locale.js": {
       "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
@@ -13049,20 +13146,6 @@ self.__RSC_MANIFEST={
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
-    },
-    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/uliasemenuk/projects/AppClicks/prompts-portal/node_modules/next/font/google/target.css?{\"path\":\"app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
     }
   }
 }
